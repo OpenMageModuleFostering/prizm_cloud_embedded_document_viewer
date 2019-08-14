@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Prizm_Cloud_Embedded_Document_Viewer</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL2</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A document viewer that displays over 300 different kinds of files on your website, no additional software.</summary>
+    <description>Prizm Cloud is a document viewer that enables you to display hundreds of different kinds of files on your website without worrying about whether your visitors have the software to view them and without installing any additional hardware or software. The document files stay on your server, so you can update, edit and change them anytime. Prizm Cloud supports more than 300 file types, including DOC, PDF, PPT, XLS and CAD.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Accusoft</name><user>Accusoft</user><email>plugins@prizmcloud.com</email></author></authors>
+    <date>2013-06-28</date>
+    <time>14:19:14</time>
+    <contents><target name="magecommunity"><dir name="Accusoft"><dir name="Prizmclouddocsviewer"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Ptype.php" hash="37aab5199ae6c99466b7cec467b3b40c"/></dir></dir></dir></dir></dir><dir name="Block"><dir name="Adminhtml"><file name="Prizmclouddocsviewer.php" hash="2c66d93d7b8dfabf1a1403bcd18abc1d"/></dir><file name="Viewer.php" hash="b0eea8ebd83c3e891dca389f36d60cc2"/></dir><dir name="Helper"><file name="Data.php" hash="66057cfb95dd43e4faa7e224ae815cab"/></dir><dir name="Model"><file name="prizmclouddocsviewer.php" hash="2798a97fa1836ce53558726f41aa82ab"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a297ac65896cb3925b84c3c23730f76e"/><file name="config.xml" hash="5f68fae783f6d6065fab8329158291e6"/><file name="system.xml" hash="5c00b3ed99624a02d224930f3fdf1a25"/></dir><dir name="sql"><dir name="Prizmclouddocsviewer_setup"><file name="install-0.1.0.php" hash="80509794181e7741898136e8094e0040"/><file name="mysql4-install-0.1.0" hash="ff4a22a88da7623de400f7e5fba97a4e"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Accusoft_Prizmclouddocsviewer.xml" hash="1da3965ca0adb5722b52254378bc99f0"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.8.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Accusoft_Prizmclouddocsviewer>
+            <version>0.1.0</version>
+        </Accusoft_Prizmclouddocsviewer>
+    </modules>
+
+    <global>
+			<blocks>
+        <accusoft_prizmclouddocsviewer>
+            <class>Accusoft_Prizmclouddocsviewer_Block</class>
+        </accusoft_prizmclouddocsviewer>
+      </blocks>
+
+			<models>
+					<accusoft_prizmclouddocsviewer>
+							<class>Accusoft_Prizmclouddocsviewer_Model</class>
+					</accusoft_prizmclouddocsviewer>
+          <prizmclouddocsviewer_resource>
+            <class>Accusoft_Prizmclouddocsviewer_Model_Resources</class>
+            <entities>
+              <prizmclouddocsviewer>
+                <table>accusoft_prizmclouddocsviewer</table>
+              </prizmclouddocsviewer>
+            </entities>
+          </prizmclouddocsviewer_resource>
+          <prizmclouddocsviewer_adminhtml>
+            <class>Accusoft_Prizmclouddocsviewer_Adminhtml_Model</class>
+          </prizmclouddocsviewer_adminhtml>
+      </models>
+			<helpers>
+					<prizmclouddocsviewer>
+						<class>Accusoft_Prizmclouddocsviewer_Helper</class>
+					</prizmclouddocsviewer>
+			</helpers>
+    </global>
+
+    <adminhtml>
+    </adminhtml>
+    <default>
+      <prizmcloud>
+          <settings>
+              <toolbar_color>CCCCCC</toolbar_color>
+          </settings>
+      </prizmcloud>
+    </default>
+</config>

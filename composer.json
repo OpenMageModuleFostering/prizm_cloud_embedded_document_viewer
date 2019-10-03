@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Prizm_Cloud_Embedded_Document_Viewer",
+    "name": "OpenMageModuleFostering\/Prizm_Cloud_Embedded_Document_Viewer",
     "type": "magento-module",
     "license": "GPL2",
     "homepage": "",
     "description": "A document viewer that displays over 300 different kinds of files on your website, no additional software.",
     "authors": [
-    {
-        "name": "Accusoft",
-        "email": "plugins@prizmcloud.com"
-    }
-],
+        {
+            "name": "Accusoft",
+            "email": "plugins@prizmcloud.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
